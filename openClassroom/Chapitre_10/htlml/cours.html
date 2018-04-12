@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Envoyez des données</title>
+</head>
+<body>
+
+	<h3>Qui est le plus fort ?</h3>
+	<form method="POST">
+		<input type="radio" name="plusFort" id="elephant" value="ELE" checked>
+		<label for="elephant">L'elephant</label> <br>
+		<input type="radio" name="plusFort" id="rhinoceros" value="RHI">
+		<label>Le Rhinoceros</label> <br>
+		<input type="radio" name="plusFort" id="hippopotame" value="HIP">
+		<label for="hippopotame">L'hippopotame</label> <br>
+		<p>
+			<label for="nom">Votre nom</label>
+			<input type="text" name="nom" id="nom" required>
+		</p>
+
+		<input type="submit" value="Votez">
+	</form>
+
+	<script type="text/javascript" src="../js/ajax.js"></script>
+	<script type="text/javascript" src="../js/cours.js"></script>
+</body>
+</html>

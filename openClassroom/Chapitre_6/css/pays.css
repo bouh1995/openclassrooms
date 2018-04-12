@@ -1,0 +1,19 @@
+/*Augmente l'espacement gauche et droite des suggestuions*/
+.suggestions {
+	padding-left: 2px;
+	padding-right: 2px;
+}
+
+
+/*Modidie la couleur de la suggestion survolée par la souris*/
+.suggestions:hover {
+	background-color: #adf;
+	cursor: pointer;
+}
+
+/*Positionne la liste des suggestions au dessous de la zone de saisie*/
+#suggestions {
+	position: absolute;
+	left: 171px;
+	border: 1px solid black;
+}

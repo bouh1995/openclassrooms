@@ -1,0 +1,20 @@
+#ballon {
+	left: 0px;
+	position: relative;
+	/*margin-left: -110px;
+	animation-name: deplacerBallon;
+	animation-duration: 10s;
+	animation-fill-mode: forwards;
+	*/
+}
+
+/*
+@keyframes deplacerBallon {
+	from {
+		left: 100px;
+	}
+
+	to {
+		left: 100%;
+	}
+}*/

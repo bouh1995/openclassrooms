@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<link rel="stylesheet" type="text/css" href="">></li>
+<body>
+<ul id="menu">
+	<li>Fichier
+		<ul>
+			<li>Ouvrir fichier</li>
+			<li>nouveau fichier</li>
+		</ul>		
+	</li>
+	<li>Edition
+		<ul>
+			<li>couper</li>
+			<li>copier</li>
+			<li>coller</li>
+		</ul>
+	</li>
+	<li>Quitter</li>
+</ul>
+
+<script type="text/javascript">
+
+	
+	function maFonction(menu) {
+		var selecteur ="#" + menu  + "> li";
+
+		var li = document.querySelectorAll(selecteur);
+		
+		li[0].setAttribute('class', 'ssmenu');
+	
+		} 
+
+	maFonction('menu');
+
+</script>
+
+</body>
+</html>
